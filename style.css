@@ -1,0 +1,969 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin-bottom: 65px;
+    height: 900px;
+    background: linear-gradient(to left, #4c3891, #2f2359);
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 33px;
+    padding-right: 136px;
+    padding-top: 36px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    padding: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Debut {
+    display: flex;
+    margin-top: 158px;
+}
+
+.Betscape {
+    margin-left: 111px;
+}
+
+.bouton {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 26px;
+    width: 170px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #bf3676;
+    margin-right: 110px;
+}
+
+.Paris {
+    color: white;
+    font-family: Poppins;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.SousParis {
+    height: 68px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}
+
+.TexteH {
+    margin-left: 177px;
+    width: 518px;
+    height: 94px;
+}
+
+.ImageH {
+    position: absolute;
+    right: 0%;
+    width: 798px;
+    height: 600px;
+}
+
+.Arrow {
+    display: block;
+    margin: auto;
+    margin-top: 525px;
+}
+
+/* MAIN */
+main {
+    background-image: url(img/background.png);
+    position: relative;
+}
+
+.Unpari {
+    margin-top: 65px;
+    width: 628px;
+    height: 45px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bf3676;
+    margin: auto;
+    margin-bottom: 28px;
+}
+
+.Barre {
+    margin: auto;
+    width: 248px;
+    height: 2px;
+    background-color: #bf3676;
+}
+
+.BlaBla {
+    padding-top: 59px;
+    width: 787px;
+    height: 70px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: #222222;
+    margin: auto;
+}
+
+.Quatuor {
+    margin-top: 11px;
+    height: 64px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    width: 441px;
+}
+
+.Cercle {
+    width: 10px;
+    height: 10px;
+    margin: 7px 0;
+    margin-left: 10px;
+    background-color: #bf3676;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+.TexteCote {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 8px;
+    height: 387px;
+    font-family: Poppins;
+    position: absolute;
+    right: 74px;
+    top: 30%;
+}
+
+
+.TitreArticles,
+.sectionArticles,
+.sectionArticle {
+    display: flex;
+}
+
+.ImgQuatuor {
+    margin-left: 182px;
+    margin-top: 17px;
+    width: 47px;
+    height: 57px;
+}
+
+.article {
+    margin-left: 30px;
+}
+
+.h31 {
+    width: 247px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.h32 {
+    width: 227px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.h33 {
+    width: 393px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.h34 {
+    width: 254px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+article {
+    padding-left: 104px;
+    margin-top: 77px;
+}
+
+.Defis {
+    padding-top: 145px;
+    padding-bottom: 121px;
+    text-align: center;
+}
+
+.bouton2 {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 26px;
+    border-radius: 22px;
+    background-color: #bf3676;
+}
+
+/* SLIDER */
+
+.slider {
+
+    padding-bottom: 65px;
+    background: white;
+}
+
+h2 {
+    width: 580px;
+    height: 45px;
+    font-family: Poppins;
+    font-size: 40.5px;
+    font-weight: bold;
+    line-height: 0.52;
+    text-align: left;
+    color: #bf3676;
+    padding-bottom: 29px;
+}
+
+.BarreSlider {
+    width: 248px;
+    height: 3px;
+    background-color: #bf3676;
+}
+
+.TitreSlider {
+    padding-top: 61px;
+    padding-left: 112px;
+}
+
+.SousTitresSlider {
+    display: flex;
+}
+
+.categories {
+    margin-left: 7px;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1px 15px;
+    border-radius: 9px;
+    background-color: #d3c4f2;
+}
+
+.h3Slider {
+    width: 184px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 20.5px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.SousTitreh3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.Participants {
+    width: 206px;
+    height: 17px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #747474;
+}
+
+.SectionSlider {
+    margin-top: 0px;
+    margin-left: 112px;
+    width: 27%;
+    border-radius: 10px;
+    box-shadow: 0.9px 10px 15.5px 0.5px rgba(98, 98, 98, 0.19);
+    padding-top: 60px;
+    display: flex;
+}
+
+.SectionSlider2 {
+    margin-top: 0px;
+    margin-left: 112px;
+    width: 27%;
+    padding-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0.9px 10px 15.5px 0.5px rgba(98, 98, 98, 0.19);
+    background-color: #ffffff;
+}
+
+.DetailsSlider {
+    padding-left: 35px;
+}
+
+.SliderDetails {
+    padding-top: 24px;
+    display: flex;
+}
+
+.Topchef {
+    margin-left: 25px;
+}
+
+.SliderFlex {
+    display: flex;
+}
+
+.Dots {
+    display: flex;
+    width: 100px;
+    margin: auto;
+
+    padding-bottom: 165px;
+}
+
+.reddot {
+    width: 19px;
+    height: 18px;
+    margin: 7px 0;
+    margin-left: 10px;
+    background-color: #bf3676;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+.dot {
+    width: 19px;
+    height: 18px;
+    margin: 7px 0;
+    margin-left: 10px;
+    background-color: #818181;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+/* CONTAINER */
+
+.container {
+    position: relative;
+    background: linear-gradient(to top, #4c3891, #2f2359);
+}
+
+.TitreContainer {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 29px;
+    padding-top: 73px;
+    width: 825px;
+    height: 45px;
+    font-family: Poppins;
+    font-size: 40.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.52;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+
+.BlocBlancContainer {
+    margin: auto;
+    width: 249px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.ImgASLider {
+    width: 866px;
+    height: 364px;
+    margin: 102px 275px 208px 550px;
+}
+
+.BoutonContainer {
+    padding-bottom: 91px;
+    text-align: center;
+}
+
+h4 {
+    width: 260px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+}
+
+.nouveau {
+    background: white;
+    width: 86px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 16.5px;
+    font-weight: 600;
+    text-align: center;
+    color: #2f2359;
+    padding: 5px 20px;
+    border-radius: 22px;
+    margin-left: 62px;
+
+}
+
+.TitreTexteContainer {
+    display: flex;
+}
+
+.TexteContainer1 {
+    width: 436px;
+    height: 92px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.TexteContainer2 {
+    width: 436px;
+    height: 92px;
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.Numeros {
+    width: 49px;
+    height: 49px;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #2f2359;
+    border-radius: 100%;
+    background: white;
+}
+
+.TexteNumeros {
+    padding-left: 28px;
+    width: 438px;
+    height: 39px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.TexteDroiteContainer {
+    padding-left: 111px;
+    padding-top: 32px;
+    display: flex;
+}
+
+.TextesContainer {
+    position: absolute;
+    left: 425px;
+    bottom: 262px;
+    display: flex;
+}
+
+/* BOTTOMPAGE */
+
+.bottompage {
+    position: relative;
+    height: 720.6px;
+}
+
+.ImgBottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.TexteBottom {
+    margin-left: 115px;
+    padding-top: 208px;
+    width: 50%;
+}
+
+.I {
+    width: 9px;
+    height: 50px;
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 500;
+    text-align: left;
+    color: #222222;
+    position: absolute;
+    top: 183px;
+}
+
+.Texte1Bottom {
+    padding-left: 19px;
+    width: 461px;
+    height: 55px;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #222222;
+}
+
+
+.Texte2Bottom {
+    padding-top: 4px;
+    padding-left: 2px;
+    width: 503px;
+    height: 251px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #222222;
+}
+
+.PhraseGrise {
+    width: 500px;
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: left;
+    color: #bbbbbb;
+    position: absolute;
+    bottom: 88px;
+}
+
+.Quote {
+    position: absolute;
+    top: 170px;
+    left: 509px;
+}
+
+/* FOOTER */
+footer {
+    padding-bottom: 23.9px;
+    position: relative;
+    background-image: url(img/background-footer.png);
+}
+
+.Bestcapefooter {
+    padding-left: 111px;
+    padding-top: 67.1px;
+}
+
+.MenuFooter {
+    padding-top: 36px;
+    padding-left: 111px;
+    width: 141px;
+    height: 164px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.MenuFooter2 {
+    padding-left: 311px;
+    width: 241px;
+    height: 68px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2.67;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    bottom: 270px;
+}
+
+.Réseaux {
+    float: right;
+    padding-right: 107px;
+}
+
+.BarreFooter {
+    margin: auto;
+    width: 1229px;
+    height: 3px;
+    opacity: 0.35;
+    background-color: #ffffff;
+    margin-top: 76px;
+    margin-bottom: 19px;
+}
+
+.TexteAlexis {
+    margin: auto;
+    width: 780px;
+    font-family: Poppins;
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media (max-width:770px) {
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        height: 100vh;
+        margin-bottom: 65px;
+        padding-top: 70px;
+        background: linear-gradient(to left, #4c3891, #2f2359);
+    }
+
+    header nav {
+        display: list-item;
+        width: 850px;
+        margin-left: -100px;
+        padding: 0px;
+    }
+
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 130px;
+    }
+
+    .Betscape {
+        margin-left: 250px;
+    }
+
+    .TexteH {
+        width: 61%;
+    }
+
+    .Paris {
+        color: white;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+
+    .SousParis {
+        padding-bottom: 30px;
+    }
+
+    article {
+        padding-left: 30px;
+        margin-top: 65px;
+    }
+
+    .article {
+        margin-left: 10px;
+    }
+
+    .Debut {
+        margin: auto;
+        text-align: center;
+        display: block;
+        margin-top: 158px;
+    }
+
+    #ImageHH {
+        margin-top: 59px;
+    }
+
+    .Arrow {
+        display: block;
+        margin: auto;
+        margin-top: 642px;
+    }
+
+    /* Main */
+
+    .h33 {
+        width: 310px;
+        padding-top: 10p;
+        padding-bottom: 26px;
+        height: 23px;
+        font-family: Poppins;
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .ImgQuatuor {
+        margin-left: 0;
+        margin-top: 17px;
+        width: 47px;
+        height: 57px;
+    }
+
+    .Quatuor {
+        margin-top: 11px;
+        height: 64px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        width: 263px;
+    }
+
+    .TexteCote {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        font-size: 8px;
+        height: 387px;
+        font-family: Poppins;
+        position: absolute;
+        right: 35px;
+        top: 37%;
+    }
+
+    .BlaBla {
+        padding-top: 59px;
+        width: 760px;
+        height: 70px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        color: #222222;
+        margin: auto;
+    }
+
+    .Defis {
+        padding-top: 185px;
+        padding-bottom: 121px;
+        text-align: center;
+    }
+
+    /* CONTAINER*/
+
+    .TitreContainer {
+        margin: auto;
+        text-align: center;
+        padding-bottom: 29px;
+        padding-top: 73px;
+        width: 765px;
+        height: 45px;
+        font-family: Poppins;
+        font-size: 33px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.52;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+
+    .ImgASLider {
+        width: 100%;
+        margin: 0;
+    }
+
+    .TextesContainer {
+        position: absolute;
+        left: 0;
+        bottom: 190px;
+        display: flex;
+    }
+
+    .TexteNumeros {
+        padding-left: 28px;
+        width: 245px;
+        height: 39px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .TexteDroiteContainer {
+        margin-right: 2px;
+        padding-left: 0px;
+        padding-top: 44px;
+        display: flex;
+    }
+
+    .BoutonContainer {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .TitreTexteContainer {
+        margin-top: 140px;
+        display: flex;
+    }
+
+    /* SLIDER */
+    .Defis {
+        padding-top: 185px;
+        padding-bottom: 121px;
+        text-align: center;
+    }
+
+    .SectionSlider {
+        margin-top: 0px;
+        margin-left: 45px;
+        width: 38%;
+        border-radius: 10px;
+        box-shadow: 0.9px 10px 15.5px 0.5px rgba(98, 98, 98, 0.19);
+        padding-top: 60px;
+        display: block;
+    }
+
+    .SectionSlider2 {
+        display: none;
+    }
+
+    .Topchef {
+        margin-left: 100px;
+    }
+
+    /* */
+
+    #Joueurs {
+        float: right;
+        width: 33%;
+        padding-top: 208px;
+    }
+
+    .Texte1Bottom {
+        padding-left: 19px;
+        width: 461px;
+        height: 55px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #222222;
+    }
+
+    .Texte2Bottom {
+        padding-left: 19px;
+        width: 461px;
+        height: 55px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #222222;
+    }
+
+    .TexteBottom {
+        margin-left: 0;
+        padding-top: 208px;
+        width: 50%;
+    }
+
+    .Quote {
+        position: absolute;
+        top: 170px;
+        left: 346px;
+    }
+
+    /* */
+
+    footer {
+        height: 100vh;
+    }
+
+    .TexteAlexis {
+        margin: auto;
+        width: 760px;
+        font-family: Poppins;
+        font-size: 11px;
+        text-align: center;
+        color: #ffffff;
+
+
+    }
+
+    .BarreFooter {
+        margin: auto;
+        width: 100%;
+        height: 3px;
+        opacity: 0.35;
+        background-color: #ffffff;
+        margin-top: 76px;
+        margin-bottom: 19px;
+    }
+
+    .MenuFooter2 {
+        padding-left: 311px;
+        width: 241px;
+        height: 68px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 2.67;
+        text-align: left;
+        color: #ffffff;
+        position: absolute;
+        top: 132px;
+        /* bottom: 270px; */
+    }
+}
